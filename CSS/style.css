@@ -378,12 +378,6 @@ nav li a:hover {
     color: #0515fc;
 }
 @media (max-width: 900px) {
-    header {
-        background: #ffffff;
-        /* opacity: 0.; */
-        padding: 2% 1%;
-        /* border-radius: 15px; */
-    }
     header h1 {
         font-size: 3vw;
         font-weight: 700;
@@ -539,6 +533,31 @@ nav li a:hover {
         width: 40vw;
         height: 6vw;
         line-height: 6vw;
+    }
+
+    #contact input, textarea, button {
+        width: 80%;
+        font-size: 3vw;
+    }
+    #contact input {
+        height: 30px;
+    }
+    #contact input:focus::placeholder {
+        font-size: 2vw ;
+        transform: translateY(-20px);
+    }
+    #contact .contactInfo {
+        display: flex;
+        flex-direction: column;
+        gap: 5vw;
+        width: 120%;
+    }
+    #conatct textarea {
+        height: 120px;
+        width: 12vw;
+    }
+    #contact .social-link {
+        font-size: 4vw;
     }
 
 }
