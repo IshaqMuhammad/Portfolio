@@ -26,13 +26,13 @@ header {
     top: 2%;
     z-index: 1000;
     color: #1a1a1a;
-    width: 90%;
+    width: 80%;
     margin: 0.5% auto;
     display: flex;
     justify-content: space-between;
     align-content: space-between;
     flex-direction: row;
-    background: transparent;
+    background: white;
 }
 
 header h1 {
